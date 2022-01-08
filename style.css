@@ -1,0 +1,118 @@
+.body{
+    margin: 0px;
+}
+.layout{
+    display: grid;
+    grid-template-columns: 5.5fr 4.5fr;
+    height: 700px;
+    position: relative;
+    top: -10px;
+    left: -10px;
+}
+.rightpage{
+    margin: 5%;
+    display: grid;
+    grid-template-rows: 1fr 3fr 2fr 10fr;
+    height: 700px;
+}
+
+.left > img{
+    width: 100%;
+    height: 700px;
+    object-fit:cover;
+  
+}
+i{
+    font-size: 40px;
+    color: rgb(29, 155, 240);
+}
+.happening{
+    font-size: 64px;
+    font-weight: 700;
+}
+.join{
+    font-size: 30px;
+    font-weight: 700;
+}
+*{
+    font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+.buttons{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 4fr;
+    width: 274px;
+    height: 400px;
+
+}
+.signin input[type=button]{
+ height: 38px;
+ width: 274px;
+ border-radius: 38px;
+ background-color: white;
+ font-size: 14px;
+ border: solid 1px;
+ border-color: rgb(194, 190, 190);
+ font-weight: bold;
+ 
+}
+.logoclass{
+    display: flex;
+    flex-direction: row ;
+    margin: auto;
+    justify-content: flex-start;
+}
+#googlelogo ,#applelogo{
+    font-size: 18px;
+    margin-top: 10px;
+    position: absolute;
+    z-index: +1;
+    margin-left: 50px;
+    color: black;
+}
+#mobiles{
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+}
+.middleline{
+margin-top: 21.8px;
+}
+.or{
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    height: 42.16px;
+}
+.terms{
+    font-size: 10px;
+}
+a{
+    color: rgb(29, 155, 240);
+}
+#signupbutton{
+    color: rgb(29, 155, 240);
+}
+#bird{
+     
+      color: white;
+      font-size: 300px;
+      text-align: center;
+}
+.whitebird{
+    position: absolute;
+    z-index: +1;  
+    top: 20%;
+    left: 10%;
+}
+.footeranchor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+    flex-wrap: wrap;
+ 
+}
+.footeritems{
+    color: gray;
+    font-size: 13px;
+
+}
